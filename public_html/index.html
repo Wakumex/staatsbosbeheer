@@ -17,6 +17,9 @@
                 padding-left: 1em;
                 padding-right: 1em;
             }
+            body { 
+                padding-top: 50px; 
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -27,7 +30,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             
             <div class="navbar-header pull-right">
@@ -37,7 +40,6 @@
                 <span class="icon-bar"></span>
               </button>
             </div>
-            
             
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
@@ -49,14 +51,19 @@
                 
             <ul class="nav navbar-nav navbar-left">
                 <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABONNEER<b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
                 <ul class="dropdown-menu centerDropdown">
                   <li><a href="#">f</a></li>
                   <li><a href="#">p</a></li>
                   <li><a href="#">t</a></li>
-                  <li class="divider"></li>
-                  <li><p>Abonneer op onze nieuwsbrief<p></li>
-                  
+                </ul>
+                </li>
+            </ul>
+                
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nieuwsbrief<b class="caret"></b></a>
+                <ul class="dropdown-menu centerDropdown">
                 <li><form role="form">
                         <div class="form-group">
                         <input type="email" class="form-control" placeholder="uw email">
@@ -67,25 +74,21 @@
             </ul>
                 
             </div>
-                
-            
-            
         </div>
     </nav>
         
         
-        
-        <div id="myCarousel" class="carousel slide">
+    <div id="myCarousel" class="carousel slide" style="width: 100%; height: 100%; margin: 0 auto">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" >
             
             <div class="item active">
-                <img src="img/img_0410.jpg" class="img-responsive">
+                <img src="img/img_0410_custom.jpg" class="img-responsive" style="width: 100%; height: 80%; margin: 0 auto">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Veluwe</h1>
@@ -95,18 +98,17 @@
             </div>
             
             <div class="item">
-                <img src="img/Eppiesberg.jpg" class="img-responsive">
+                <img src="img/Eppiesberg_custom.jpg" class="img-responsive" style="width: 100%; height: 80%; margin: 0 auto">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Bootstrap 3 Carousel Layout</h1>
-                        <pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small=""><p></p>
                             <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>
                     </p></pthis></div>
                 </div>
             </div>
             
             <div class="item">
-                <img src="img/vliehors.jpg" class="img-responsive">
+                <img src="img/vliehors_custom.jpg" class="img-responsive" style="width: 100%; height: 80%; margin: 0 auto">
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Percentage-based sizing</h1>
@@ -115,6 +117,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -125,14 +128,15 @@
         </a>  
     </div>
         
+    
+    
+<div class="container">
+    <br>
     <ul class="breadcrumb">
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>
         <li class="active">Accessories</li>
     </ul>
-
-    
-    <div class="container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">

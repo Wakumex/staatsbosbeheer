@@ -12,9 +12,10 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
+            .centerDropdown {
+                text-align: center !important;
+                padding-left: 1em;
+                padding-right: 1em;
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -26,30 +27,53 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">NATUURGEBIEDEN</a></li>
+                <li><a href="#">WINKEL</a></li>
+                <li><a href="#">NIEUWS</a></li>
+                <li><a href="#">KAMPEERTEREIN</a></li>
+              </ul>
+                
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABONNEER<b class="caret"></b></a>
+                <ul class="dropdown-menu centerDropdown">
+                  <li><a href="#">f</a></li>
+                  <li><a href="#">p</a></li>
+                  <li><a href="#">t</a></li>
+                  <li class="divider"></li>
+                  <li><p>Abonneer op onze nieuwsbrief<p></li>
+                  
+                <li><form role="form">
+                        <div class="form-group">
+                        <input type="email" class="form-control" placeholder="uw email">
+                    </div>
+                        <button type="submit" class="btn btn-default">Meld mij aan!</button>
+                </ul>
+                </li>
+            </ul>
+                
+            </div>
+                
+            
+            
         </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+    </nav>
+        
+        
         
         <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->

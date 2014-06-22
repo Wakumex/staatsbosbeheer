@@ -23,3 +23,48 @@
 .fa-youtube-square {
     color:#bb0000
 }
+#hover-img .thumbnail {
+            position: relative;
+            overflow: hidden;
+        }
+
+        #hover-img .caption {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            color: #fff !important;
+        }
+
+        #hover-img .caption p {
+            padding: 6px;
+        }
+
+        #hover-img .caption-btm {
+            background: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            height: 40px;
+            position: absolute;
+            bottom: 4px;
+            color: #fff;
+            display: table;
+            width: 100%;
+        }
+
+        #hover-img .caption-btm p {
+            text-align: left;
+            padding-left: 10px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .nobullet
+        {
+            margin: 0 auto;
+            padding: 0;
+            float: none;
+            list-style-type: none;
+        }

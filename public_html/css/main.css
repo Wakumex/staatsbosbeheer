@@ -3,7 +3,11 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+img{
+-user-drag: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+}
 .fa-facebook-square {
     color:#3b5998
 }
@@ -28,43 +32,59 @@
             overflow: hidden;
         }
 
-        #hover-img .caption {
-            display: none;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            color: #fff !important;
-        }
+#hover-img .caption {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+}
 
-        #hover-img .caption p {
-            padding: 6px;
-        }
+#hover-img .caption p {
+    padding: 6px;
+}
 
-        #hover-img .caption-btm {
-            background: rgba(0, 0, 0, 0.3);
-            width: 100%;
-            height: 40px;
-            position: absolute;
-            bottom: 4px;
-            color: #fff;
-            display: table;
-            width: 100%;
-        }
+#hover-img .caption-btm {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 4px;
+    color: #fff;
+    display: table;
+    width: 100%;
+}
 
-        #hover-img .caption-btm p {
-            text-align: left;
-            padding-left: 10px;
-            display: table-cell;
-            vertical-align: middle;
-        }
-        
-        .nobullet
-        {
-            margin: 0 auto;
-            padding: 0;
-            float: none;
-            list-style-type: none;
-        }
+#hover-img .caption-btm p {
+    text-align: left;
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nobullet
+{
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    list-style-type: none;
+}
+.carousel-custom{
+    text-align: left !important;
+}
+.carousel-custom h1{
+    font-family: 'Arvo', serif;
+    font-size: 4em;
+}
+.carousel-custom p{
+    font-family: 'Gloria Hallelujah', cursive;
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px;
+    line-height: 10px;
+    height: 1.5em;
+}

@@ -109,8 +109,17 @@ img{
 .footerdesign
 {
     background-color: #f0efea;
+    padding: 10px;
 }
 .footerlinks
 {
     padding-bottom: 1em;
+}
+.footer-bottom{
+    background-color: #506566;
+    color: white;
+}
+.footer-bottom a{
+    background-color: #506566;
+    color: white;
 }

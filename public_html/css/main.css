@@ -21,7 +21,7 @@ img{
 }
 
 .fa-rss-square {
-    color:#3b5998
+    color: #FF6600;
 }
 
 .fa-youtube-square {
@@ -96,4 +96,19 @@ img{
     height: 2px;
     
     top:50%; margin-top:30px;
+}
+
+.logo
+{
+    display: block;
+    background: rgba(0,0,0,0.1);
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerlinks
+{
+    padding-bottom: 1em;
 }

@@ -17,7 +17,13 @@
                 padding: 1em;
             }
             body { 
-                padding-top: 50px; 
+                
+            }
+            
+            .nomargepadding
+            {
+                padding: 0;
+                margin: 0;
             }
 
         </style>
@@ -35,8 +41,9 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    
+        <!--HEADER-->
+    <nav class="navbar navbar-default navbar-top nomargepadding" role="navigation">
         <div class="container">
             
             <div class="navbar-header pull-right">
@@ -59,9 +66,10 @@
                 <ul class="dropdown-menu centerDropdown">
                 <li><form role="form">
                 <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Zoek">
-                    </div>
-                        <button type="submit" class="btn btn-default">Zoek!</button>
+                    <input type="text" class="form-control" placeholder="Zoek">
+                </div>
+                    <button type="submit" class="btn btn-default">Zoek!</button>
+                </li>
                 </ul>
                 </li>
               </ul>
@@ -147,8 +155,71 @@
         </a>  
     </div>
         
+        <nav class="navbar navbar-default">
+            <div class="container">
+            
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">NATUURGEBIEDEN</a></li>
+                <li><a href="#">WINKEL</a></li>
+                <li><a href="#">NIEUWS</a></li>
+                <li><a href="#">KAMPEERTEREIN</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                <ul class="dropdown-menu centerDropdown">
+                <li><form role="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Zoek">
+                </div>
+                    <button type="submit" class="btn btn-default">Zoek!</button>
+                </li>
+                </ul>
+                </li>
+              </ul>
+                
+                
+                
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+                <ul class="dropdown-menu centerDropdown">
+                  <li></li>
+                  <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+                  <li><a href="#"><i class="fa fa-rss-square fa-2x"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+                </ul>
+                </li>
+            </ul>
+                
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nieuwsbrief<b class="caret"></b></a>
+                <ul class="dropdown-menu centerDropdown">
+                <li><form role="form">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="uw email">
+                    </div>
+                        <button type="submit" class="btn btn-default">Meld mij aan!</button>
+                </ul>
+                </li>
+            </ul>
+           </div>
+        </div>
+        </nav>
+        
     
-    
+    <!--CONTENT-->
 <div class="container">
     <br>
     <ul class="breadcrumb">
@@ -233,9 +304,10 @@
         </div>
         
     </div>
-  </div>
-        <hr>
+    </div>
+        
     <!--FOOTER-->
+    <hr>
     <div class="container footerdesign">
         <div class="container">
             <div class="col-md-4">
@@ -269,6 +341,7 @@
             </blockquote>
             </div>
         </div>
+        
         <div class="container">
             <div class="col-sm-3 footerlinks">
                 <b><a href="#">Natuurgebieden</a></b><br>
@@ -311,40 +384,40 @@
                 <a href="#">December</a><br>
             </div>
             <div class="col-sm-3">
-                    <b><a href="#">Kampeertereinen</a></b><br>
-                    <a href="#">Flevoland</a><br>
-                    <a href="#">Groningen</a><br>
-                    <a href="#">Friesland</a><br>
-                    <a href="#">Drenthe</a><br>
-                    <a href="#">Overijsel</a><br>
-                    <a href="#">Gelderland</a><br>
-                    <a href="#">Utrecht</a><br>
-                    <a href="#">Noord Holland</a><br>
-                    <a href="#">Zuid Holland</a><br>
-                    <a href="#">Brabant</a><br>
-                    <a href="#">Zeeland</a><br>
-                    <a href="#">Limburg</a><br>
-                </div>
+                <b><a href="#">Kampeertereinen</a></b><br>
+                <a href="#">Flevoland</a><br>
+                <a href="#">Groningen</a><br>
+                <a href="#">Friesland</a><br>
+                <a href="#">Drenthe</a><br>
+                <a href="#">Overijsel</a><br>
+                <a href="#">Gelderland</a><br>
+                <a href="#">Utrecht</a><br>
+                <a href="#">Noord Holland</a><br>
+                <a href="#">Zuid Holland</a><br>
+                <a href="#">Brabant</a><br>
+                <a href="#">Zeeland</a><br>
+                <a href="#">Limburg</a><br>
             </div>
-          </div>
+        </div>
+    </div>
     
-        <div class="container footer-bottom">
-            <div class="col-md-12">
-                <p><a href="#">Over ons</a> &#124; <a href="#">Lid worden</a> &#124; <a href="#">Contact</a></p>
-            <hr>
-            </div>
-            <div class="col-md-12">
-                <p><a href="#">Algemene voorwaarden</a> - <a href="#">Disclaimer</a> - <a href="#">Privacyverklaring</a> - <a href="#">Cookie instellingen</a> - <a href="#">Sitemap</a></p>
-            </div>
-            
+    <div class="container footer-bottom">
+        <div class="col-md-12">
+            <p><a href="#">Over ons</a> &#124; <a href="#">Lid worden</a> &#124; <a href="#">Contact</a></p>
+        <hr>
+        </div>
+        <div class="col-md-12">
+            <p><a href="#">Algemene voorwaarden</a> - <a href="#">Disclaimer</a> - <a href="#">Privacyverklaring</a> - <a href="#">Cookie instellingen</a> - <a href="#">Sitemap</a></p>
         </div>
 
-      
+    </div>
+    
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>');</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+        
     </body>
 </html>
